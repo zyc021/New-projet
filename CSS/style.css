@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:ital@1&family=Roboto:ital,wght@1,300&display=swap');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+h1,h2,h3{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+@media (max-width: 960px){
+.container {
+	width:700px;
+ }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    width: 200px;
+  }
+}
+a{
+	text-decoration: none;
+}
